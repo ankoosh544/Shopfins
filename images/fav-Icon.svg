@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Shopfince_fav_Icon" data-name="Shopfince fav Icon" transform="translate(1940 24136)">
+    <rect id="Rectangle_1106" data-name="Rectangle 1106" width="32" height="32" transform="translate(-1940 -24136)" fill="none"/>
+    <g id="Group_32918" data-name="Group 32918" transform="translate(-1936 -24136)">
+      <g id="Group_32" data-name="Group 32">
+        <g id="noun_Location_2885745">
+          <g id="Group_22" data-name="Group 22">
+            <path id="Path_56" data-name="Path 56" d="M12.216,0A12.3,12.3,0,0,1,24.541,12.216c0,7.351-7.568,14.7-12.324,19.784C7.459,26.919,0,19.568,0,12.216A12.273,12.273,0,0,1,12.216,0Zm0,5.189a7.027,7.027,0,1,1-7.027,7.027A7.013,7.013,0,0,1,12.216,5.189Z" fill="#003da8" fill-rule="evenodd"/>
+          </g>
+        </g>
+        <path id="Path_57" data-name="Path 57" d="M4.313-29.077a1.679,1.679,0,0,0-.753-.708,2.366,2.366,0,0,0-1.082-.244H1.191l.459-.928H7.061l-.459.928H4.787a1.5,1.5,0,0,1,.828.953H7.061l-.459.928H5.665q-.229,1.955-2.748,1.955H2.782l3.087,3.162H4.253L1.466-25.98v-1h.972a2.633,2.633,0,0,0,1.5-.339,1.212,1.212,0,0,0,.494-.828H1.191l.459-.928Z" transform="translate(8.301 40.051)" fill="#003da8"/>
+      </g>
+    </g>
+  </g>
+</svg>

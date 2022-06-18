@@ -1,0 +1,121 @@
+{% extends 'header.html' %}
+{% block content %}
+
+    <div class="features-right features-right1 col-lg-8 col-md-12">
+
+                                     <div class="product-right">
+                                      <div class="form-wizard">
+                                       <div class="wizard-step">
+                                           <ul class="d-flex form-wizard-steps">
+                                           <li class="active"><em><span class="d-flex align-items-center justify-content-center">1</span></em>
+                                               <h6>Personal Details</h6></li>
+                                                <li><em><span class="d-flex align-items-center justify-content-center">2</span></em>
+                                               <h6>Loan Details</h6></li>
+
+                                           </ul>
+
+                                         </div>
+
+                                             <div class="wizard-fieldset show">
+
+                                         <div class="personal-form">
+{#                                             <form action="{% url 'personal-loanPage2' %}" method="post">#}
+{#                                                 {% csrf_token %}#}
+{#                                                 <ul class="d-flex flex-wrap">#}
+{#                                                     <li class="col-md-6">#}
+{#                                                         <select>#}
+{#      <option data-display="Personal Loan">Personal Loan</option>#}
+{#       <option value="1">Home Loan</option>#}
+{#     <option value="2">Business Loan</option>#}
+{#     <option value="3">Vehicle Loan</option>#}
+{##}
+{##}
+{#</select></li>#}
+{#                                                      <li class="col-md-6">#}
+{##}
+{#                        <input type="text" class="form-control" placeholder="Full Name as per PAN" name="name" id="name" >#}
+{#                     </li>#}
+{#                     <li class="col-md-6">#}
+{##}
+{#                        <input type="tel" class="form-control" placeholder="Mobile Number" name="phone" id="phone">#}
+{#                     </li>#}
+{#                     <li class="col-md-6"><label></label>#}
+{##}
+{#                        <input type="email" class="form-control" placeholder="Email ID" id="email" name="email">#}
+{#                     </li>#}
+{#                                                      <li class="col-md-6">#}
+{#                                                         <select>#}
+{#      <option data-display="Occupation Type">Occupation Type</option>#}
+{#       <option value="1">Salaried</option>#}
+{#     <option value="2">Self-Employed Professional</option>#}
+{#     <option value="3">Self-Employed Business</option>#}
+{##}
+{#</select></li>#}
+{##}
+{#                                                     <li class="col-md-6">#}
+{#                                                         <select>#}
+{#      <option data-display="Your current city">Your current city</option>#}
+{#       <option value="1">Hyderabad</option>#}
+{#     <option value="2">Chennai</option>#}
+{#     <option value="3">Mumbai</option>#}
+{#     <option value="3">Banglore</option>#}
+{#     <option value="3">Pune</option>#}
+{##}
+{#</select></li>#}
+{##}
+{#                                                 </ul>#}
+{#                                               <button type="button" class="btn form-wizard-next-btn">CONTINUE</button>#}
+{##}
+{#                                             </form>#}
+
+
+                                         </div>
+                                             </div>
+                                             <div class="wizard-fieldset">
+
+                                         <div class="personal-form">
+                                             <form>
+
+                                                 <ul class="d-flex flex-wrap">
+                                                     <li class="col-md-6">
+                                                        <input type="number" class="form-control" placeholder="Required Loan amount">
+</li>
+                                                      <li class="col-md-6">
+
+                        <input type="text" class="form-control" placeholder="Company Working" name="company" id="company" required>
+                     </li>
+                     <li class="col-md-6">
+
+                        <input type="number" class="form-control" placeholder="Take home Salary Monthly" name="salary" id="salary"  required>
+                     </li>
+                     <li class="col-md-6"><label></label>
+
+                        <input type="number" class="form-control" placeholder="Existing loan EMI amount (per Month)" id="amount" name="amount">
+                     </li>
+
+
+                                                 </ul>
+                                                 <div class="previous">
+                                                     <ul class="d-flex">
+                                                         <li>
+                                                 <button type="button" class="btn form-wizard-previous-btn">previous</button>
+                                                             </li>
+                                                         <li>
+                                               <button type="button" class="btn form-wizard-submit">SUBMIT</button>
+                                                             </li>
+                                                         </ul>
+                                                     </div>
+
+                                             </form>
+
+                                         </div>
+                                             </div>
+
+
+
+                                     </div>
+
+                                     </div>
+
+                                 </div>
+{% endblock %}

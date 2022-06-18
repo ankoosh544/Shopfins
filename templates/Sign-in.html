@@ -1,0 +1,51 @@
+{% extends 'header.html' %}
+{% block content %}
+    {% load static %}
+    <div class="banner">
+            <div class="container">
+                 <div class="banner-cnt d-flex flex-wrap align-items-center">
+                        <div class="banner-left col-lg-6 col-md-7">
+                           <h2>Coming Soon!</h2>
+
+<!--                           <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>-->
+
+                        </div>
+                        <div class="banner-right col-lg-6 col-md-5">
+                           <figure><img src="images/CibilTheme.svg" width="600" height="549" alt="cibil"></figure>
+                        </div>
+                     </div>
+            </div>
+         </div>
+    <div class="contact-form">
+            <div class="form">
+               <div class="close">
+                  <a href="#"><img src="images/close.png" width="15" height="15" alt="close"></a>
+               </div>
+               <form action="mail.php" method="POST">
+                  <h6>Drop a Word</h6>
+                  <ul>
+                     <li><label></label>
+                        <span class="info" id="usernameinfo"></span>
+                        <input type="text" class="form-control" placeholder="Fullname" name="name" id="name" required>
+                     </li>
+                     <li><label></label>
+                        <span class="info" id="usercontactinfo"></span>
+                        <input type="tel" class="form-control" placeholder="Phone" name="phone" id="phone"  min-lenght="10" pattern="[789][0-9]{9}" required>
+                     </li>
+                     <li><label></label>
+                        <span class="info" id="useremailinfo"></span>
+                        <input type="email" class="form-control" placeholder="Email" id="email" name="email">
+                     </li>
+                     <li>
+                        <label>Message</label>
+                        <span class="info" id="usermessageinfo"></span>
+                        <textarea class="form-control textarea" name="message" id="message"></textarea>
+                     </li>
+                  </ul>
+                  <button type="submit" class="btn submit_btn" value="submit">submit
+                  </button>
+               </form>
+            </div>
+         </div>
+
+{% endblock %}

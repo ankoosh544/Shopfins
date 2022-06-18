@@ -1,0 +1,1017 @@
+{% extends 'header.html'%}
+{% block content %}
+    {% load static %}
+
+    <div class="banner">
+             <div class="container">
+
+               <div class="multiple-items">
+                  <div>
+
+                     <div class="banner-cnt d-flex flex-wrap align-items-center">
+                        <div class="banner-left col-lg-6 col-md-7">
+                           <h2 class="animated" data-animation-in="fadeInUp">Personal Loans</h2>
+                           <ul class="d-flex animated" data-animation-in="fadeInUp">
+                              <li><a href="#" class="active">Personal Loans</a></li>
+                              <li><a href="#">Home Loans</a></li>
+                              <li><a href="#">Business Loans</a></li>
+                              <li><a href="#">Vehicle Loans</a></li>
+
+                           </ul>
+                           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3">A personal loan is an unsecured loan for which one does not require any collateral or security or pledge. It is a hassle-free way to meet short-term or medium-term expenses such as renovating your home or temporary financial needs, without preconditions.</p>
+                            <div class="process">
+                                <ul class="animated"  data-animation-in="fadeInRight" data-delay-in="0.2">
+                                    <li>
+                                        <button type="button">Lowest Interest Rate Starting from 10.40%
+</button>
+
+                                    </li>
+                                     <li>
+                                        <button type="button">Processing Fee : 0%-3% of the loan amount</button>
+
+                                    </li>
+
+
+                                </ul>
+
+                            </div>
+                            <div class="criteria">
+                                <ul class="d-flex animated"  data-animation-in="fadeInUp" data-delay-in="0.3">
+                                    <li>
+                           <a href="{% url 'personal-loan' %}"  class="btn">APPLY NOW</a>
+                                        </li>
+                                    <li class="d-flex align-items-center">
+                                        <a href="{% url 'personal-loan' %}" class="eligible">Eligibility Criteria</a>
+
+                                    </li>
+                                    </ul>
+                                </div>
+                        </div>
+                        <div class="banner-right col-lg-6 col-md-5">
+                           <figure class="animated" data-animation-in="zoomIn"><img src="{% static 'images/Personal%20Loans.svg' %}" width="600" height="549" alt="personal-loan"></figure>
+                        </div>
+                     </div>
+
+                      </div>
+                    <div>
+
+                     <div class="banner-cnt d-flex flex-wrap align-items-center">
+                        <div class="banner-left col-lg-6 col-md-7">
+                           <h2 class="animated" data-animation-in="fadeInUp">Home Loans</h2>
+                           <ul class="d-flex animated" data-animation-in="fadeInUp">
+                              <li><a href="#" >Personal Loans</a></li>
+                              <li><a href="#" class="active">Home Loans</a></li>
+                              <li><a href="#">Business Loans</a></li>
+                              <li><a href="#">Vehicle Loans</a></li>
+
+                           </ul>
+                           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3">Even if you have sufficient funds to buy a house, a home loan offers benefits such as saving tax, ensuring enough liquidity and opportunity to let your funds grow.
+</p>
+                            <p>We will help you to compare 40+ banks and apply to get the best housing loan offer with the lowest rate, low processing fee, easy documentation and hassle free process.</p>
+                            <div class="process">
+                                <ul class="animated"  data-animation-in="fadeInRight" data-delay-in="0.2">
+                                    <li>
+                                        <button type="button">Lowest Interest Rate starting from 6.7% </button>
+
+                                    </li>
+                                     <li>
+                                        <button type="button">Maximum loan tenure is 30 years</button>
+
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                           <div class="criteria">
+                                <ul class="d-flex animated"  data-animation-in="fadeInUp" data-delay-in="0.3">
+                                    <li>
+                           <a href="{% url 'home-loan' %}" class="btn">APPLY NOW</a>
+                                        </li>
+                                    <li class="d-flex align-items-center">
+                                        <a href="{% url 'home-loan' %}" class="eligible">Eligibility Criteria</a>
+
+                                    </li>
+                                    </ul>
+                                </div>
+                        </div>
+                        <div class="banner-right col-lg-6 col-md-5">
+                           <figure  class="animated" data-animation-in="zoomIn"><img src="{% static 'images/HomeLoanstheme.svg' %}" width="600" height="549" alt="home-loan"></figure>
+                        </div>
+                     </div>
+
+                  </div>
+                    <div>
+
+                     <div class="banner-cnt d-flex flex-wrap align-items-center">
+                        <div class="banner-left col-lg-6 col-md-7">
+                           <h2 class="animated" data-animation-in="fadeInUp">Business Loans</h2>
+                           <ul class="d-flex animated" data-animation-in="fadeInUp">
+                              <li><a href="#" >Personal Loans</a></li>
+                              <li><a href="#" >Home Loans</a></li>
+                              <li><a href="#" class="active">Business Loans</a></li>
+                              <li><a href="#">Vehicle Loans</a></li>
+
+                           </ul>
+                           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3">
+Businesses require funding at various phases such as while starting on a new project, expanding operations, or recovering from losses. However, starting up a business is the part when funding seems to be almost non-existent. Entrepreneurs have to work out ways to make optimal use of their resources in every possible way.
+</p>
+                            <div class="process">
+                                <ul class="animated"  data-animation-in="fadeInRight" data-delay-in="0.2">
+                                    <li>
+                                        <button type="button">Interest Rate	13.50% onwards
+</button>
+
+                                    </li>
+                                     <li>
+                                        <button type="button">Processing Fee 0 to 3% of loan amount</button>
+
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                          <div class="criteria">
+                                <ul class="d-flex animated"  data-animation-in="fadeInUp" data-delay-in="0.3">
+                                    <li>
+                           <a href="{% url 'business-loan' %}" class="btn">APPLY NOW</a>
+                                        </li>
+                                    <li class="d-flex align-items-center">
+                                        <a href="{% url 'business-loan' %}" class="eligible">Eligibility Criteria</a>
+
+                                    </li>
+                                    </ul>
+                                </div>
+                        </div>
+                        <div class="banner-right col-lg-6 col-md-5">
+                           <figure  class="animated" data-animation-in="zoomIn"><img src="{% static 'images/Businessloanstheme.svg' %}" width="600" height="500" alt="business-loan"></figure>
+                        </div>
+                     </div>
+                            </div>
+
+                   <div>
+
+                     <div class="banner-cnt d-flex flex-wrap align-items-center">
+                        <div class="banner-left col-lg-6 col-md-7">
+                           <h2 class="animated" data-animation-in="fadeInUp">Vehicle Loans</h2>
+                           <ul  class="d-flex animated" data-animation-in="fadeInUp">
+                              <li><a href="#" >Personal Loans</a></li>
+                              <li><a href="#" >Home Loans</a></li>
+                              <li><a href="#" >Business Loans</a></li>
+                              <li><a href="#" class="active">Vehicle Loans</a></li>
+
+                           </ul>
+                           <p class="animated" data-animation-in="fadeInUp" data-delay-in="0.3">Today, owning a car is no longer a luxury, but more a necessity. Fortunately, people have made the possibility of buying their dream car through a car loan from a reputed bank.
+</p>
+                            <div class="process">
+                                <ul class="animated"  data-animation-in="fadeInRight" data-delay-in="0.2">
+                                    <li>
+                                        <button type="button">Interest Rate (Monthly reducing balance) - 7.30% onwards </button>
+
+                                    </li>
+                                     <li>
+                                        <button type="button">Processing Fees Starts from 0.23% of the loan amount
+</button>
+
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                         <div class="criteria">
+                                <ul class="d-flex animated"  data-animation-in="fadeInUp" data-delay-in="0.3">
+                                    <li>
+                           <a href="{% url 'auto-loan' %}"  class="btn">APPLY NOW</a>
+                                        </li>
+                                    <li class="d-flex align-items-center">
+                                        <a href="{% url 'auto-loan' %}" class="eligible">Eligibility Criteria</a>
+
+                                    </li>
+                                    </ul>
+                                </div>
+                        </div>
+                        <div class="banner-right col-lg-6 col-md-5">
+                           <figure  class="animated" data-animation-in="zoomIn"><img src="{% static 'images/AutoLoans.svg' %}" width="600" height="549" alt="auto-loan"></figure>
+                        </div>
+                     </div>
+
+                  </div>
+
+
+               </div>
+                 <div class="scroll">
+<!--                     <a href="#product"><img src="images/scroll.png" width="35" height="82" alt="scroll"></a>-->
+                     <a href="#product">
+                     <div class="mouse_scroll">
+
+		<div class="mouse">
+			<div class="wheel"></div>
+		</div>
+		<div>
+			<span class="m_scroll_arrows unu"></span>
+			<span class="m_scroll_arrows doi"></span>
+
+		</div>
+                         </div></a>
+
+                 </div>
+            </div>
+         </div>
+         <div class="main-content">
+             <div class="product-blk" >
+                 <div class="container">
+                     <div class="product-in" id="product">
+                       <h3 class="text-center">Our <span>Financial Services</span> and <span>Products</span></h3>
+                         <p class="text-center">We keep developing and innovating, offering a wide range of products and services that help our customers and clients achieve their ambitions. We are specialized in providing financial advice for things like loans, insurance and Investments through efficient service with Careful suggestions. </p>
+                         <p class="text-center">Our Financial advisors are ready to give advice and help you explore our financial products and services to suit your needs and goals.</p>
+                         <div class="product-tabs"  id="parentHorizontalTab">
+                             <div class="product-tab-links">
+                                 <ul class="d-flex flex-wrap resp-tabs-list hor_1">
+                                     <li class="col-md-4 step">
+                                         <a class="d-flex align-items-center justify-content-center">
+                                             <div class="product-tab-link-cnt">
+                                                 <figure class="hide-hover"><img src="{% static 'images/Loans-Blue.svg' %}" width="30" height="43" alt="loans-blue"></figure>
+                                                 <figure class="show-hover"><img src="{% static 'images/Loans-White.svg' %}" width="30" height="43" alt="loans-white"></figure>
+                                                 <h6>Loans</h6>
+
+                                             </div>
+
+
+                                         </a>
+
+                                     </li>
+                                 <li   class="col-md-4 step">
+                                         <a  class="d-flex align-items-center justify-content-center">
+                                             <div class="product-tab-link-cnt">
+                                                 <figure class="hide-hover"><img src="{% static 'images/Insurance-blue.svg' %}" width="36" height="43" alt="insurance-blue"></figure>
+                                                 <figure class="show-hover"><img src="{% static 'images/Insurance-white.svg' %}" width="36" height="43" alt="insurance-white"></figure>
+                                                 <h6>Insurance</h6>
+
+                                             </div>
+
+
+                                         </a>
+
+                                     </li>
+                                      <li  class="col-md-4 step">
+                                         <a  class="d-flex align-items-center justify-content-center">
+                                             <div class="product-tab-link-cnt">
+                                                 <figure class="hide-hover"><img src="{% static 'images/Stocks-blue.svg' %}" width="43" height="43" alt="stocks-blue"></figure>
+                                                 <figure class="show-hover"><img src="{% static 'images/Stocks-white.svg' %}" width="43" height="43" alt="stocks-white"></figure>
+                                                 <h6>Investments</h6>
+
+                                             </div>
+
+
+                                         </a>
+
+                                     </li>
+
+                                 </ul>
+
+                             </div>
+
+
+                                     <div class="resp-tabs-container hor_1">
+                                         <div>
+                                 <div class="product-loans-cnt-inner  d-flex flex-wrap" id="change">
+                                  <div class="product-left col-md-4">
+                                      <div id="tab-0" class="tab-content-wrapper">
+                                     <h4>Personal Loan</h4>
+                                      <ul>
+                                          <li><p>Loan amount ranging from 1 Lakh to 40 Lakhs</p></li>
+                                          <li><p>Paperless digital sanctions</p></li>
+                                          <li><p>Loan tenure from 12 months to 84 months*</p></li>
+                                          <li><p>Flexibility to make up to 40%* part payment*</p></li>
+                                          <li><p>Rate of Interest starting as low as 10.40%*</p></li>
+
+
+                                      </ul>
+
+                                      <a href="{% url 'personal-loan' %}"  class="btn">KNOW MORE</a>
+                                          </div>
+                                       <div id="tab-1" class="tab-content-wrapper">
+                                     <h4>Home Loan</h4>
+                                      <ul>
+                                          <li><p>Age limit Starts from 21 years to 65 years</p></li>
+
+                                                <li><p>Available for construction / purchase of house or flat from private developer or housing boards and repairs/renovation to the existing properties
+</p></li>
+
+                                          <li><p>Balance Transfer or Takeover of your existing home loan with another financial institute is also possible.</p></li>
+                                          <li><p>You can apply individually or jointly for Home Loans. All proposed owners of the property will have to be co-applicants</p></li>
+
+
+                                      </ul>
+
+                                      <a href="{% url 'home-loan' %}"  class="btn">KNOW MORE</a>
+                                          </div>
+                                       <div id="tab-2" class="tab-content-wrapper">
+                                     <h4>Business Loan</h4>
+                                      <ul>
+                                          <li><p>Attractive interest rates offered on loans from  2 lakhs to 5 Crore.
+</p></li>
+                                          <li><p>Paperless digital sanctions</p></li>
+                                          <li><p>Flexible tenures between 1 – 5 years.
+</p></li>
+                                          <li><p>Online application and door-step banking services.
+</p></li>
+                                          <li><p>Top-up facility available.
+</p></li>
+                                 <li><p>Minimum documentation.
+</p></li>
+
+
+
+                                      </ul>
+
+                                      <a href="{% url 'business-loan' %}"  class="btn">KNOW MORE</a>
+                                          </div>
+                                       <div id="tab-3" class="tab-content-wrapper">
+                                     <h4>Vehicle Loan</h4>
+                                      <ul>
+                                          <li><p>It helps you purchase a car even if you don’t have all the money for it right now.
+</p></li>
+                                          <li><p>Most car loans will finance the on-road price of the car.</p></li>
+                                          <li><p>Some car loans will even finance 100% of the on-road price. This means no down payments.</p></li>
+                                          <li><p>With some banks offering financing in the crores, you are not limited in your choice of cars
+</p></li>
+                                          <li><p>Most car loan offerings in India are secured loans. This implies that the car serves as the security/collateral for the loan.
+</p></li>
+
+                                           <li><p>Procuring a car loan is usually simple when compared to other loan products. Individuals with slightly unsavoury credit scores can also hope to procure one. However, this option differs from bank to bank.
+
+</p></li>
+
+                                          <li><p>Car loans in India often offer fixed interest rate options. This means, you are always assured of a fixed amount that needs to be repaid monthly.
+
+
+</p></li>
+                                          <li><p>Many lenders will offer interest rates based on your credit score so a high score to get you a cheaper loan.
+
+
+</p></li>
+                                          <li><p>Car loans are not meant for just new cars. A used car loan can help you buy a pre-owned car.
+
+
+
+</p></li>
+                                      </ul>
+
+                                      <a href="{% url 'auto-loan' %}"  class="btn">KNOW MORE</a>
+                                          </div>
+
+                                     </div>
+                                     <div class="product-right col-md-8">
+                                         <div class="form-wizard">
+                                       <div class="wizard-step">
+                                           <ul class="d-flex form-wizard-steps">
+                                           <li class="active"><em><span class="d-flex align-items-center justify-content-center">1</span></em>
+                                               <h6>Personal Details</h6></li>
+                                                <li><em><span class="d-flex align-items-center justify-content-center">2</span></em>
+                                                    <h6>Loan Details</h6></li>
+
+                                           </ul>
+
+                                         </div>
+
+                                             <div class="wizard-fieldset show">
+
+                                         <div class="personal-form">
+                                             <form>
+                                                 <ul class="d-flex flex-wrap">
+                                                     <li class="col-md-6">
+                                                         <select id="select-box">
+      <option value="0" data-display="Personal Loan">Personal Loan</option>
+       <option value="1">Home Loan</option>
+     <option value="2">Business Loan</option>
+     <option value="3">Vehicle Loan</option>
+
+
+</select></li>
+                                                      <li class="col-md-6">
+
+                        <input type="text" class="form-control" placeholder="Full Name as per PAN" name="name" id="name" >
+                     </li>
+                     <li class="col-md-6">
+
+                        <input type="tel" class="form-control" placeholder="Mobile Number" name="phone" id="phone">
+                     </li>
+                     <li class="col-md-6"><label></label>
+
+                        <input type="email" class="form-control" placeholder="Email ID" id="email" name="email">
+                     </li>
+                                                      <li class="col-md-6">
+                                                         <select>
+      <option data-display="Occupation Type">Occupation Type</option>
+       <option value="1">Salaried</option>
+
+
+</select></li>
+
+                                                     <li class="col-md-6">
+                                                         <select>
+      <option data-display="Your current city">Your current city</option>
+       <option value="1">Hyderabad</option>
+     <option value="2">Chennai</option>
+     <option value="3">Mumbai</option>
+     <option value="3">Banglore</option>
+     <option value="3">Pune</option>
+
+</select></li>
+
+                                                 </ul>
+                                               <button type="button" class="btn form-wizard-next-btn"  >CONTINUE</button>
+
+                                             </form>
+
+                                         </div>
+                                             </div>
+                                             <div class="wizard-fieldset">
+
+                                         <div class="personal-form">
+                                             <form>
+
+                                                <ul class="d-flex flex-wrap">
+                                                     <li class="col-md-6">
+                                                        <input type="number" class="form-control" placeholder="Required Loan amount">
+</li>
+                                                      <li class="col-md-6">
+
+                        <input type="text" class="form-control" placeholder="Company Working" name="company" id="company" required="">
+                     </li>
+                     <li class="col-md-6">
+
+                        <input type="number" class="form-control" placeholder="Take home Salary Monthly" name="salary" id="salary" required="">
+                     </li>
+                     <li class="col-md-6">
+
+                        <input type="number" class="form-control" placeholder="Existing loan EMI amount (per Month)" id="amount" name="amount">
+                     </li>
+
+
+                                                 </ul>
+                                                 <div class="previous">
+                                                     <ul class="d-flex">
+                                                         <li>
+                                                 <button type="button" class="btn form-wizard-previous-btn">previous</button>
+                                                             </li>
+                                                         <li>
+                                               <button type="button" class="btn form-wizard-next-submit">SUBMIT</button>
+                                                             </li>
+                                                         </ul>
+                                                     </div>
+
+                                             </form>
+
+                                         </div>
+                                             </div>
+                                             <div class="wizard-fieldset">
+
+                                         <div class="personal-form">
+                                             <form>
+
+                                                 <ul class="d-flex flex-wrap">
+                                                     <li class="col-md-6">
+                                                         <select>
+      <option data-display="Personal Loan">Personal Loan</option>
+       <option value="1">Home Loans</option>
+     <option value="2">Business Loans</option>
+     <option value="3">Vehicle Loans</option>
+
+</select></li>
+                                                      <li class="col-md-6">
+
+                        <input type="text" class="form-control" placeholder="Full Name as per PAN" name="name" id="name" required>
+                     </li>
+                     <li class="col-md-6">
+
+                        <input type="tel" class="form-control" placeholder="Mobile Number" name="phone" id="phone"  min-lenght="10" pattern="[789][0-9]{9}" required>
+                     </li>
+                     <li class="col-md-6"><label></label>
+
+                        <input type="email" class="form-control" placeholder="Email ID" id="email" name="email">
+                     </li>
+                                                      <li class="col-md-6">
+                                                         <select>
+      <option data-display="Occupation Type">Occupation Type</option>
+       <option value="1">Salaried</option>
+     <option value="2">Self-Employed Professional</option>
+     <option value="3">Self-Employed Business</option>
+
+</select></li>
+
+                                                     <li class="col-md-6">
+                                                         <select>
+      <option data-display="Your current city">Your current city</option>
+       <option value="1">Hyderabad</option>
+     <option value="2">Chennai</option>
+     <option value="3">Mumbai</option>
+     <option value="3">Banglore</option>
+     <option value="3">Pune</option>
+
+</select></li>
+
+                                                 </ul>
+                                                 <div class="previous">
+                                                     <ul class="d-flex">
+                                                         <li>
+ <button type="button" class="btn form-wizard-previous-btn" >PREVIOUS</button>
+                                                             </li>
+                                                         <li>
+                                               <button type="button" class="btn form-wizard-submit" >SUBMIT</button>
+                                                             </li>
+                                                         </ul>
+                                             </div>
+                                             </form>
+
+                                         </div>
+                                             </div>
+
+
+                                     </div>
+                                     </div>
+
+                                 </div>
+                                             </div>
+
+
+
+
+
+
+                                          <div>
+                                 <div class="product-loans-cnt-inner d-flex flex-wrap" id="change1">
+                                  <div class="product-left col-md-4">
+
+                                     <h4>Insurance</h4>
+                                      <ul>
+                                          <li><p>Loan amount ranging from 1 Lakh to 40 Lakhs</p></li>
+                                          <li><p>Paperless digital sanctions</p></li>
+                                          <li><p>Loan tenure from 12 months to 84 months*</p></li>
+                                          <li><p>Flexibility to make up to 40%* part payment*</p></li>
+                                          <li><p>ROI starting as low as 10.75%*</p></li>
+
+
+
+                                      </ul>
+                                      <a href="{% url 'life-insurance' %}" class="btn">KNOW MORE</a>
+
+
+                                     </div>
+                                     <div class="product-right col-md-8">
+                                       <div class="insurance-tabs">
+                                           <div class="inurance-tab-links">
+                                           <ul class="d-flex justify-content-center">
+                                               <li class="col-md-4 active">
+                                               <a  data-index="insurance-tab1">
+                                                   <div class="insurance-cnt">
+                                                       <em>
+                                                       <span class="d-flex align-items-center justify-content-center">
+                                                        <figure class="insurance-hide1"><img src="{% static 'images/Life-insurance-blue.svg' %}" width="22" height="33" alt="life-insuarance"></figure>
+                                                            <figure class="insurance-hover1"><img src="{% static 'images/Life-insurance-White.svg' %}" width="22" height="33" alt="lifeinsuarance-white"></figure></span>
+                                                       </em>
+                                                       <h6>Life Insurance</h6>
+                                                   </div>
+
+                                                   </a></li>
+                                               <li class="col-md-4">
+                                               <a data-index="insurance-tab2">
+                                                   <div class="insurance-cnt">
+                                                       <em>
+                                                       <span class="d-flex align-items-center justify-content-center">
+                                                        <figure class="insurance-hide1"><img src="{% static 'images/Health%20Insurance%20Blue.svg' %}" width="22" height="30" alt="health-insuarance"></figure>
+                                                            <figure class="insurance-hover1"><img src="{% static 'images/Health-Insurance-White.svg' %}" width="22" height="30" alt="health-insuarance-white"></figure></span>
+                                                       </em>
+                                                       <h6>Health Insurance</h6>
+                                                   </div>
+
+                                                   </a></li>
+                                            <li class="col-md-4">
+                                               <a data-index="insurance-tab3">
+                                                   <div class="insurance-cnt">
+                                                       <em>
+                                                       <span class="d-flex align-items-center justify-content-center">
+                                                        <figure class="insurance-hide1"><img src="{% static 'images/Motor%20Insurance%20Blue.svg' %}" width="26" height="33" alt="motor-insuarance"></figure>
+                                                            <figure class="insurance-hover1"><img src="{% static 'images/Motor-Insurance-White.svg' %}" width="26" height="33" alt="motor-insuarance-white"></figure></span>
+                                                       </em>
+                                                       <h6>Motor Insurance</h6>
+                                                   </div>
+
+                                                   </a></li>
+                                           </ul>
+                                               </div>
+
+                                           <div  class="insurance-tab1 insurance-content" style="display: block;">
+                                           <div class="personal-form">
+                                               <form>
+                                               <ul class="d-flex flex-wrap">
+                                                   <li class="col-md-6">
+                                                       <input type="text" class="form-control" placeholder="Member Full Name">
+
+                                                   </li>
+                                                 <li class="col-md-6">
+                                                       <input type="number" class="form-control" placeholder="Mobile Number">
+
+                                                   </li>
+                                               <li class="col-md-6">
+                                                       <input type="number" class="form-control" placeholder="Pincode">
+
+                                                   </li>
+                                               </ul>
+                                                   <a href="#" class="btn">GET QUOTE</a>
+                                           </form>
+                                           </div>
+                                               </div>
+                                           <div  class="insurance-tab2 insurance-content">
+                                            <div class="personal-form">
+                                               <form>
+                                               <ul class="d-flex flex-wrap">
+                                                   <li class="col-md-6">
+                                                       <input type="text" class="form-control" placeholder="Member Full Name">
+
+                                                   </li>
+                                                 <li class="col-md-6">
+                                                       <input type="number" class="form-control" placeholder="Mobile Number">
+
+                                                   </li>
+                                               <li class="col-md-6">
+                                                       <input type="number" class="form-control" placeholder="Pincode">
+
+                                                   </li>
+                                               </ul>
+                                                   <a href="#" class="btn">GET QUOTE</a>
+                                           </form>
+                                           </div>
+                                               </div>
+                                           <div   class="insurance-tab3 insurance-content">
+                                          <div class="personal-form">
+                                               <form>
+                                               <ul class="d-flex flex-wrap motor-insurance">
+                                                   <li class="col-md-12">
+                                                       <ul class="d-flex align-items-center">
+                                                           <li><label for="car"><input type="radio" checked id="car" name="car"><span>Car</span></label>
+                                         </li>
+
+                                                            <li><label for="Bike"><input type="radio"  id="Bike" name="car"><span>Bike</span></label>
+                                         </li>
+
+                                                           <li><label for="Commercial"><input type="radio"  id="Commercial" name="car"><span>Commercial</span></label>
+                                         </li>
+                                                       </ul>
+
+                                                   </li>
+                                                   <li class="col-md-6 vechile" >
+                                                       <input type="text" class="form-control" placeholder="Vehicle Registration Number">
+
+                                                   </li>
+                                                 <li class="col-md-6">
+                                                       <input type="number" class="form-control" placeholder="Mobile Number">
+
+                                                   </li>
+
+                                               </ul>
+                                                   <a href="#" class="btn">GET QUOTE</a>
+                                           </form>
+                                           </div>
+                                         </div>
+                                         </div>
+
+                                     </div>
+
+                                 </div>
+                                             </div>
+                                          <div>
+                                 <div class="product-loans-cnt-inner d-flex flex-wrap" id="change2">
+                                  <div class="product-left col-md-4">
+                                      <div id="tab__0" class="tab_content_wrapper">
+                                     <h4>Mutual Funds</h4>
+                                      <ul>
+                                          <li><p>Loan amount ranging from 1 Lakh to 40 Lakhs</p></li>
+                                          <li><p>Paperless digital sanctions</p></li>
+                                          <li><p>Loan tenure from 12 months to 84 months*</p></li>
+                                          <li><p>Flexibility to make up to 40%* part payment*</p></li>
+                                          <li><p>ROI starting as low as 10.75%*</p></li>
+
+                                      </ul>
+                                      <a href="{% url 'mutual-fund' %}"  class="btn">KNOW MORE</a>
+                                          </div>
+
+                                     </div>
+                                     <div class="product-right col-md-8">
+                                     <div class="insurance-tabs">
+                                           <div class="inurance-tab-links">
+                                           <ul class="d-flex justify-content-center">
+                                               <li class="col-md-4  active">
+                                               <a data-index="investment-tab1">
+                                                   <div class="insurance-cnt">
+                                                       <em>
+                                                       <span class="d-flex align-items-center justify-content-center">
+                                                        <figure class="insurance-hide1"><img src="{% static 'images/Mutual-funds-blue.svg' %}" width="22" height="33" alt="mutual-funds-blue"></figure>
+                                                            <figure class="insurance-hover1"><img src="{% static 'images/Mutual-Funds-white.svg' %}" width="22" height="33" alt="mutual-funds-white"></figure></span>
+                                                       </em>
+                                                       <h6>Mutual Funds</h6>
+                                                   </div>
+
+                                                   </a></li>
+                                               <li class="col-md-4">
+                                               <a data-index="investment-tab2">
+                                                   <div class="insurance-cnt">
+                                                       <em>
+                                                       <span class="d-flex align-items-center justify-content-center">
+                                                        <figure class="insurance-hide1"><img src="{% static 'images/Stock-trading-blue.svg' %}" width="22" height="30" alt="stock-trading-blue"></figure>
+                                                            <figure class="insurance-hover1"><img src="{% static 'images/Stock-trading%20-white.svg' %}" width="22" height="30" alt="stock-trading-white"></figure></span>
+                                                       </em>
+                                                       <h6>Stock Trading</h6>
+                                                   </div>
+
+                                                   </a></li>
+                                            <li class="col-md-4">
+                                               <a data-index="investment-tab3">
+                                                   <div class="insurance-cnt">
+                                                       <em>
+                                                       <span class="d-flex align-items-center justify-content-center">
+                                                        <figure class="insurance-hide1"><img src="{% static 'images/Bonds-blue.svg' %}" width="22" height="33" alt="bonds-blue"></figure>
+                                                            <figure class="insurance-hover1"><img src="{% static 'images/Bonds-white.svg' %}" width="22" height="33" alt="health-insuarance"></figure></span>
+                                                       </em>
+                                                       <h6>Bonds</h6>
+                                                   </div>
+
+                                                   </a></li>
+                                           </ul>
+                                               </div>
+
+                                           <div class="investment-tab1 insurance-content" style="display: none;">
+                                           <div class="personal-form">
+                                               <form>
+                                               <ul class="d-flex flex-wrap">
+                                                   <li class="col-md-6">
+                                                       <input type="text" class="form-control" placeholder="Full Name">
+
+                                                   </li>
+                                                 <li class="col-md-6">
+                                                       <input type="number" class="form-control" placeholder="Mobile Number">
+
+                                                   </li>
+                                               <li class="col-md-6">
+                                                       <input type="email" class="form-control" placeholder="Email">
+
+                                                   </li>
+                                               </ul>
+                                                   <a href="#" class="btn">SUBSCRIBE</a>
+                                           </form>
+                                           </div>
+                                               </div>
+                                           <div class="investment-tab2 insurance-content" style="display: none;">
+                                           <div class="personal-form">
+                                               <form>
+                                               <ul class="d-flex flex-wrap">
+                                                   <li class="col-md-6">
+                                                       <input type="text" class="form-control" placeholder="Full Name">
+
+                                                   </li>
+                                                 <li class="col-md-6">
+                                                       <input type="number" class="form-control" placeholder="Mobile Number">
+
+                                                   </li>
+                                               <li class="col-md-6">
+                                                       <input type="email" class="form-control" placeholder="Email">
+
+                                                   </li>
+                                               </ul>
+                                                   <a href="#" class="btn">SUBSCRIBE</a>
+                                           </form>
+                                           </div>
+                                               </div>
+                                           <div class="investment-tab3 insurance-content" style="display: block;">
+                                         <div class="personal-form">
+                                               <form>
+                                               <ul class="d-flex flex-wrap">
+                                                   <li class="col-md-6">
+                                                       <input type="text" class="form-control" placeholder="Full Name">
+
+                                                   </li>
+                                                 <li class="col-md-6">
+                                                       <input type="number" class="form-control" placeholder="Mobile Number">
+
+                                                   </li>
+                                               <li class="col-md-6">
+                                                       <input type="email" class="form-control" placeholder="Email">
+
+                                                   </li>
+                                               </ul>
+                                                   <a href="#" class="btn">SUBSCRIBE</a>
+                                           </form>
+                                           </div>
+                                         </div>
+                                         </div>
+
+                                     </div>
+
+                                 </div>
+                                             </div>
+                             </div>
+
+
+
+                         </div>
+                     </div>
+
+                 </div>
+
+             </div>
+            <div class="why-shoppins">
+               <div class="container">
+                  <div class="shopfins-in">
+                     <h3 class="text-center">Why <span>Shopfins?</span></h3>
+                     <p class="text-center">It is essential to set and achieve financial goals and here's why you should choose us to help you with it:
+                     </p>
+                     <div class="analyze-blk d-flex flex-wrap">
+                        <div class="analyze-left col-md-6">
+                           <div class="analyze">
+                              <div class="analyze-in d-flex align-items-center ml-auto">
+                                 <figure><img src="{% static 'images/Analyze.svg' %}" width="80" height="60" alt="analyze"></figure>
+                              </div>
+                           </div>
+                           <div class="advice">
+                              <div class="advice-in advice-in1">
+                                 <h5>We Advice</h5>
+                                 <p>The financial advisors at Shopfins have a thorough knowledge of Loans, Insurance and Investments, who can help you save time to take decisions quickly.  </p>
+                              </div>
+                           </div>
+                           <div class="analyze p-0">
+                              <div class="analyze-in d-flex align-items-center ml-auto">
+                                 <figure><img src="{% static 'images/Process.svg' %}" width="60" height="60" alt="process"></figure>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="analyze-left analyze-left1 col-md-6">
+                           <div class="advice">
+                              <div class="advice-in">
+                                 <h5>We Analyse</h5>
+                                 <p>We understand your financial goals and objectives and analyse things to help you in achieving them by identifying the best financial services and products for your needs. </p>
+                              </div>
+                           </div>
+                           <div class="analyze m-0">
+                              <div class="analyze-in d-flex align-items-center ml-auto">
+                                 <figure><img src="{% static 'images/Advice.svg' %}" width="70" height="76" alt="advice"></figure>
+                              </div>
+                           </div>
+                           <div class="advice p-0">
+                              <div class="advice-in">
+                                 <h5>We Process</h5>
+                                 <p>Through our approach to financial planning and advice, we can help with the whole process which will eventually help you match your desires with reality. </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="steps">
+                        <ul>
+                           <li><span class="d-flex align-items-center justify-content-center">1</span>
+                           </li>
+                           <li><span class="d-flex align-items-center justify-content-center">2</span>
+                           </li>
+                           <li><span class="d-flex align-items-center justify-content-center">3</span>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="features-blk">
+               <div class="container">
+                  <div class="features-in text-center">
+                     <h3 class="text-center">Additional <span>Features</span></h3>
+                     <p class="text-center">Shopfins not only Analyse, Advice & Process your financial needs, will take care of your sales and post sales support as well.  </p>
+                     <div class="map">
+                        <figure>
+                           <img src="{% static 'images/Features%20theme.svg' %}" width="550" height="550" alt="theme">
+                           <div class="sales-support text-left">
+                              <div class="sales-support-in  d-flex">
+                                 <div class="support-left">
+                                    <figure><img src="{%static 'images/Support.svg'  %}" width="54" height="51" alt="support"></figure>
+                                 </div>
+                                 <div class="support-right">
+                                    <h5>Sales support</h5>
+                                    <p>We give you complete sales support in every aspect, right from the scratch as we have qualified financial advisors who are committed to the professional practice standards and code of ethics.
+ </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="sales-support sales-support1 text-left">
+                              <div class="sales-support-in  d-flex">
+                                 <div class="support-left">
+                                    <figure><img src="{% static 'images/Support.svg' %}" width="54" height="51" alt="support"></figure>
+                                 </div>
+                                 <div class="support-right">
+                                    <h5>After Sales support</h5>
+                                    <p>We believe in building strong and trustworthy relationships with our customers hence, we also provide after sales support so that you can rely on us in any circumstance later on.
+ </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </figure>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="customer-blk">
+               <div class="container">
+                  <div class="customer-in">
+                     <h3 class="text-center">Words from <span>Customers</span></h3>
+                      <p class="text-center">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual
+form of a document or a typeface without relying on meaningful content.</p>
+                      <div class="slider">
+                      <div>
+
+                      <div class="testimonal">
+
+
+                              <div class="testimonal-cnt">
+                                  <div class="client-profile">
+                                      <div class="profile-left">
+                                      <figure><img src="{% static 'images/profile1.png' %}" width="70" height="70" alt="profile1">
+                                          <span class="d-flex align-items-center justify-content-center"><img src="{% static 'images/Quote.svg' %}" width="22" height="15" alt="quote"></span>
+                                          </figure>
+                                      </div>
+                                      <div class="profile-right">
+                                          <h5>Taylor Jay</h5>
+                                          <h4>CEO, ZEHMBA</h4>
+
+                                      </div>
+
+                                  </div>
+                                   <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+
+                              </div>
+
+
+
+
+
+
+                    </div>
+                          </div>
+                           <div>
+
+                      <div class="testimonal">
+
+
+                              <div class="testimonal-cnt">
+                                  <div class="client-profile">
+                                      <div class="profile-left">
+                                      <figure><img src="{% static 'images/profile2.jpg' %}" width="70" height="70" alt="profile2">    <span class="d-flex align-items-center justify-content-center"><img src="images/Quote.svg" width="22" height="15" alt="quote"></span></figure>
+                                      </div>
+                                      <div class="profile-right">
+                                          <h5>Cheryl Smith</h5>
+                                          <h4>CEO, ZEHMBA</h4>
+
+                                      </div>
+
+                                  </div>
+                                   <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+
+                              </div>
+
+
+
+
+
+
+                    </div>
+                          </div>
+                           <div>
+
+                      <div class="testimonal">
+
+
+                              <div class="testimonal-cnt">
+                                  <div class="client-profile">
+                                      <div class="profile-left">
+                                      <figure><img src="{% static 'images/profile4.jpg' %}" width="70" height="70" alt="profile4">    <span class="d-flex align-items-center justify-content-center"><img src="images/Quote.svg" width="22" height="15" alt="quote"></span></figure>
+                                      </div>
+                                      <div class="profile-right">
+                                          <h5>Amano</h5>
+                                          <h4>CEO, ZEHMBA</h4>
+
+                                      </div>
+
+                                  </div>
+                                   <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</p>
+
+                              </div>
+
+
+
+
+
+
+                    </div>
+                          </div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+{% endblock %}

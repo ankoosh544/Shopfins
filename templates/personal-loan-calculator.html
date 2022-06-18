@@ -1,0 +1,598 @@
+{% extends 'header.html' %}
+{% block content %}
+    {% load static %}
+     <div class="main-content">
+
+             <div class="eligibility-criteria">
+                 <div class="epf-main">
+                 <div class="container">
+                     <div class="loan-personal text-center">
+                         <h3>Personal Loan EMI Calculator<div class="arrow">
+                         <a href="home.html"><img src="images/arrow2.png" width="20" height="14" alt="arrow2"></a>
+
+                     </div></h3>
+                         <div class="epf-calculator d-flex flex-wrap">
+                         <div class="emi-calculator-left col-md-5">
+                             <form>
+                             <ul>
+
+                                 <li class="rupee">
+                                 <label>
+                                     Personal Loan Amount
+
+                                 </label>
+                                     <input type="number" class="form-control" placeholder="50,000,00">
+                                     </li>
+                                 <li>
+                                 <label>
+                                 Expected Return Rate ( In %)
+
+                                 </label>
+                                     <input type="number" class="form-control" placeholder="10.5">
+                                     </li>
+                                  <li>
+                                 <label>
+                                Start Date
+                                 </label>
+                                     <input type="text" class="form-control" placeholder="22/02/2021" id="datepicker">
+                                     </li>
+                                 <li class="p-0">
+                                     <label>Loan Tenure</label>
+                                     <ul class="d-flex align-items-center justify-content-end">
+                                         <li><label for="Yearly"><input type="radio" checked id="Yearly" name="Yearly"><span>Yearly</span></label>
+                                         </li>
+                                         <li><label for="Monthly"><input type="radio" id="Monthly" name="Yearly"><span>Monthly</span></label>
+                                         </li>
+
+                                     </ul>
+                                      <input type="number" class="form-control" placeholder="10">
+
+                                 </li>
+
+                                 </ul>
+                                 <div class="calculate-blk">
+                                     <ul class="d-flex align-items-center">
+                                         <li>
+                                             <a class="btn">CALCULATE</a>
+
+                                         </li>
+                                     <li class="d-flex ml-auto"><a>Reset</a></li>
+                                     </ul>
+
+                                 </div>
+                             </form>
+
+                             </div>
+                             <div class="epf-calculator-right col-md-7">
+                                 <div class="epf-calculator-right-in text-left">
+                                     <ul>
+                                         <li>
+                                             <h4><strong>₹49,191</strong></h4>
+                                             <p>Loan EMI</p>
+
+                                         </li>
+                                        <li>
+                                             <h4>₹69,80,559</h4>
+                                             <p>Total Interest Payable</p>
+
+                                         </li>
+                                         <li class="pb-0">
+                                             <h4>₹1,19,80,559</h4>
+                                             <p>Total Payment<br>
+(Principal + Interest)</p>
+
+                                         </li>
+                                     </ul>
+
+
+
+                                 </div>
+                                  <div class="criteria">
+                                <ul class="d-flex">
+                                    <li>
+                           <a href="personal-loan.html" class="btn">APPLY NOW</a>
+                                        </li>
+                                    <li class="d-flex align-items-center">
+                                        <a href="home-loan.html" class="eligible" >Eligibility Criteria</a>
+
+                                    </li>
+                                    </ul>
+                                </div>
+
+                             </div>
+
+                         </div>
+
+                     </div>
+
+
+                     <div class="eligibility-in" id="parentHorizontalTab">
+                         <div class="features-links">
+                             <ul class="d-flex flex-wrap resp-tabs-list hor_1">
+                                  <li class="col-md-3">
+                                     <a>
+                                         <div class="feature-links-cnt text-center">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="images/Schedule.svg" width="22" height="20" alt="schedule"></span>
+                                             <h5>Amortization Schedule</h5>
+
+                                         </div>
+
+                                     </a>
+
+                                 </li>
+                                 <li class="col-md-3">
+                                     <a>
+                                         <div class="feature-links-cnt text-center">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="images/what.svg" width="14" height="20" alt="feature"></span>
+                                             <h5>What is personal Loan?</h5>
+
+                                         </div>
+
+                                     </a>
+
+                                 </li>
+                                  <li class="col-md-3">
+                                     <a>
+                                         <div class="feature-links-cnt text-center">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="images/Features.svg" width="22" height="20" alt="eligbilty"></span>
+                                             <h5>Features &amp; Benefits</h5>
+
+                                         </div>
+
+                                     </a>
+
+                                 </li>
+                                 <li class="col-md-3">
+                                     <a>
+                                         <div class="feature-links-cnt text-center">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="images/FAQ's.svg" width="22" height="20" alt="required"></span>
+                                             <h5>FAQ'S</h5>
+
+                                         </div>
+
+                                     </a>
+
+                                 </li>
+
+                             </ul>
+
+                         </div>
+                         <div class="features-tab-content">
+                               <div class="resp-tabs-container hor_1">
+                                   <div>
+                            <div class="schedule-blk emi_list_div">
+                                 <h3>Amortization Schedule</h3>
+
+          <div class="schedule-in" style="overflow-x: auto;">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>S.No</th>
+                  <th>Start Date</th>
+                  <th>Interest</th>
+                  <th>Principle </th>
+                  <th> Total Payment</th>
+                  <th>Begining Balance</th>
+                  <th>Ending Balance</th>
+                </tr>
+              </thead>
+              <tbody class="emi_list">
+                  <tr>
+                  <td>1</td>
+                  <td>22/01/2021</td>
+                  <td>1,000</td>
+                  <td>7,864</td>
+                  <td>8,864</td>
+                  <td>2,00,000</td>
+                  <td>1,92,136</td>
+                  </tr>
+                   <tr>
+                  <td>2</td>
+                  <td>22/01/2021</td>
+                  <td>1,000</td>
+                  <td>7,864</td>
+                  <td>8,864</td>
+                  <td>2,00,000</td>
+                  <td>1,92,136</td>
+                  </tr>
+                   <tr>
+                  <td>3</td>
+                  <td>22/01/2021</td>
+                  <td>1,000</td>
+                  <td>7,864</td>
+                  <td>8,864</td>
+                  <td>2,00,000</td>
+                  <td>1,92,136</td>
+                  </tr>
+                   <tr>
+                  <td>4</td>
+                  <td>22/01/2021</td>
+                  <td>1,000</td>
+                  <td>7,864</td>
+                  <td>8,864</td>
+                  <td>2,00,000</td>
+                  <td>1,92,136</td>
+                  </tr>
+                   <tr>
+                  <td>5</td>
+                  <td>22/01/2021</td>
+                  <td>1,000</td>
+                  <td>7,864</td>
+                  <td>8,864</td>
+                  <td>2,00,000</td>
+                  <td>1,92,136</td>
+                  </tr>
+                   <tr>
+                  <td>6</td>
+                  <td>22/01/2021</td>
+                  <td>1,000</td>
+                  <td>7,864</td>
+                  <td>8,864</td>
+                  <td>2,00,000</td>
+                  <td>1,92,136</td>
+                  </tr>
+                   <tr>
+                  <td>7</td>
+                  <td>22/01/2021</td>
+                  <td>1,000</td>
+                  <td>7,864</td>
+                  <td>8,864</td>
+                  <td>2,00,000</td>
+                  <td>1,92,136</td>
+                  </tr>
+                   <tr>
+                  <td>8</td>
+                  <td>22/01/2021</td>
+                  <td>1,000</td>
+                  <td>7,864</td>
+                  <td>8,864</td>
+                  <td>2,00,000</td>
+                  <td>1,92,136</td>
+                  </tr>
+                   <tr>
+                  <td>9</td>
+                  <td>22/01/2021</td>
+                  <td>1,000</td>
+                  <td>7,864</td>
+                  <td>8,864</td>
+                  <td>2,00,000</td>
+                  <td>1,92,136</td>
+                  </tr>
+                   <tr>
+                  <td>10</td>
+                  <td>22/01/2021</td>
+                  <td>1,000</td>
+                  <td>7,864</td>
+                  <td>8,864</td>
+                  <td>2,00,000</td>
+                  <td>1,92,136</td>
+                  </tr>
+                </tbody>
+            </table>
+
+          </div>
+
+
+
+      </div>
+
+                                       </div>
+                                   <div>
+                             <div class="feature-inner d-flex  flex-wrap">
+                                 <div class="features-left col-lg-3 col-md-12">
+                                     <h3>What is<br>
+Personal Loan?</h3>
+
+
+
+                                 </div>
+                                 <div class="features-right col-lg-9 col-md-12">
+                                     <ul class="d-flex flex-wrap features">
+                                         <li class="col-md-12">
+                                             <div class="epf-content">
+                                                 <p>Personal loan is the most commonly availed loan product in the Indian debt industry. Over 78% of all credits availed in India fall under this category. The unsecured nature of these loans makes them a popular choice among prospective borrowers.
+</p>
+
+                                             </div>
+
+                                         </li>
+                                           <li class="col-md-12">
+                                             <div class="epf-content">
+                                            <p>Individuals planning to avail such credits must be familiar with certain aspects before they finalise their decision. The first and primary loan feature a prospective borrower must decide is the EMI amount they will pay towards the repayment of the loan. The best way to calculate and determine EMIs is by using a personal loan EMI calculator.</p>
+
+
+                                             </div>
+
+                                         </li>
+
+                                     </ul>
+
+                                 </div>
+
+                             </div>
+
+                                       </div>
+                                   <div>
+                              <div class=" feature-inner d-flex flex-wrap" id="eligibility-criteria">
+                                 <div class="features-left col-lg-4 col-md-12">
+                                      <h3>Features and<br>
+Benefits</h3>
+                                     <p>Your financial needs, if you are a salaried employee ,may occur without any forewarning. You could have enough funds saved, however there are situations in which you find yourself in need of some extra funds. In such a scenario, taking a Personal Loan can prove to be a good choice. There are advantages of opting for this loan, especially if you have a good credit score.
+</p>
+
+
+                                 </div>
+                                 <div class="features-right col-lg-8 col-md-12">
+
+                                       <ul class="d-flex flex-wrap features">
+                                         <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                  <div class="features-right-cnt-inner">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="images/Features.svg" width="30" height="20" alt="feature"></span>
+                                                 <h3>Hassle-free loan processing</h3>
+                                                 <p>You can apply for a Personal Loan online on the website and the application process is quick and the required documentation is minimal.
+                                                      </p></div>
+                                             </div>
+
+                                         </li>
+                                         <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt-inner">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="images/Features.svg" width="30" height="20" alt="feature"></span>
+                                                 <h3>Free to use the funds for any purpose</h3>
+                                                 <p>One of the biggest advantages of Personal Loans is that you can use your funds for any purpose you like – be it a wedding, a holiday, a gadget, business investment, home renovation etc. A Home Loan or a Car Loan must be used for the purpose that you borrow it.</p>
+                                                 </div>
+                                             </div>
+
+                                         </li>
+                                            <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt-inner">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="images/Features.svg" width="30" height="20" alt="feature"></span>
+                                                 <h3>Low interest rates</h3>
+                                                 <p>Interest rates on this loan, as compared to repayment of Credit Card or Credit Card Loan is significantly lower. This is especially true in case of larger amounts.
+                                                     </p></div>
+                                             </div>
+
+                                         </li>
+                                            <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt-inner">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="images/Features.svg" width="30" height="20" alt="feature"></span>
+                                                 <h3>Improve credit score</h3>
+                                                 <p>This is especially true in case you have similar types of existing credit. A Personal Loan can prove to be useful in improving your score by adding variety to the types of account you hold.
+                                                     </p></div>
+                                             </div>
+
+                                         </li>
+                                      <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt-inner">
+                                                 <div class="features-right-cnt-inner">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="images/Features.svg" width="30" height="20" alt="feature"></span>
+                                                 <h3>No need to provide collaterals against the loan:</h3>
+                                                 <p>Personal Loans are unsecured loans – this means you do not have to mortgage collateral such as your home or shares to get the loan.
+
+                                                     </p></div></div>
+                                             </div>
+
+                                         </li>
+                                     <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt-inner">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="images/Features.svg" width="30" height="20" alt="feature"></span>
+                                                 <h3>Easy documentation: </h3>
+                                                 <p>The paperwork and the processing time required for a Personal Loan is much lower than for most other loans. You can get a loan with the following documents: ID proof, address proof and income proof. If you are pre-approved for a Personal Loan, you may not even need to submit any documents.
+
+                                                     </p></div>
+                                             </div>
+
+                                         </li>
+                                      <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt-inner">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="images/Features.svg" width="30" height="20" alt="feature"></span>
+                                                 <h3>Pocket-friendly repayment:</h3>
+                                                 <p>You can pay off your Personal Loan in easy instalments or EMIs. The payment terms are usually flexible, and you can choose a tenure that allows you to optimize your monthly outgo according to your needs.<a href="personal-loan-calculator.html">   Check your Loan EMI</a>
+
+                                                     </p>
+                                                 </div>
+
+                                             </div>
+
+                                         </li>
+
+                                     </ul>
+
+                                 </div>
+
+                             </div>
+                                       </div>
+                                   <div>
+                               <div class=" feature-inner d-flex flex-wrap">
+                                 <div class="features-left features-left_2 col-lg-4 col-md-12">
+                                     <h3>FAQ’s</h3>
+                                     <p>Are you in sudden need of funds? If yes, you can apply to a bank/NBFC for a personal loan. Banks and financial institutions in India offer personal loans to individuals for a number of purposes such as an upcoming wedding, a medical treatment, travel expenses, home renovation, educational expenses, etc.
+</p>
+                                     <p>As long as you meet the eligibility criteria of the lender and have a good credit score, you shouldn’t find it difficult to get a personal loan at a good interest rate. That said, it is necessary to do your research before applying for a personal loan. Here, we’ve listed a few frequently asked questions about personal loans, which will help you familiarise yourself with the concept.
+</p>
+
+                                 </div>
+                                 <div class="features-right features-right1 col-lg-8 col-md-12">
+                                     <div class="faqs-accordian">
+                                     <ul class="d-flex flex-wrap">
+                                         <li class="col-md-12">
+                                             <h3>1. How is Personal Loan eligibility calculated?</h3>
+                                             <div class="faq-content">
+                                                 <p>You are eligible for a Personal Loan if you are a salaried professional aged between 25 and 58 years.</p>
+
+                                             </div>
+
+                                         </li>
+                                          <li class="col-md-12">
+                                             <h3>2. How can you check personal loan eligibility?</h3>
+                                             <div class="faq-content">
+                                                 <p>You are eligible for a Personal Loan if you are a salaried professional aged between 25 and 58 years.</p>
+                                                 <ul>
+                                                     <li><p><small></small>Open the loan eligibility calculator</p></li>
+                                                     <li><p><small></small>Select the city of residence, date of birth, monthly income and monthly expenses</p></li>
+                                                     <li><p><small></small>Once you select these fields, the tool will show an amount that you will be eligible for</p></li>
+                                                     <li><p><small></small>You can apply for the same amount and get quick loan approval online</p></li>
+
+                                                 </ul>
+
+                                             </div>
+
+                                         </li>
+                                         <li class="col-md-12">
+                                             <h3>3. How much personal loan you can get on your salary?</h3>
+                                             <div class="faq-content">
+                                                 <p>A final, personal loan amount that you can get from a lender depends on your salary, city of residence, age and other eligibility criteria. The best thing to know how much personal loan you can get on your salary will be using the personal loan eligibility calculator. It will tell you the amount that you can apply for as the loan after you select your city, age, salary and monthly expenses on the tool. This way, you can apply for the eligible amount and avoid the chances of rejections.
+</p>
+
+                                             </div>
+
+                                         </li>
+
+                                          <li class="col-md-12">
+                                             <h3>4. What is the personal loan eligibility for salaried employees?</h3>
+                                             <div class="faq-content">
+                                                 <p>A personal loan for salaried employees can be availed if you can meet some eligibility conditions. Have a look at the personal loan eligibility of Bajaj Finserv:</p>
+                                                     <ul>
+                                                         <li><p><small></small>You need to be a residing citizen of India</p></li>
+                                                 <li><p><small></small>You should be aged between 23 and 55 years to apply for personal loan
+</p></li>
+                                                         <li><p><small></small>You need to be employed with a private, public limited company, or an MNC
+
+</p></li>
+                                                 </ul>
+
+
+                                             </div>
+
+                                         </li>
+
+                                          <li class="col-md-12">
+                                             <h3>5. How to qualify for a personal loan?</h3>
+                                             <div class="faq-content">
+                                                 <p>Qualifying for a personal loan is easy if you can meet the eligibility criteria of Bajaj Finserv and submit some documents.</p>
+                                                     <ul>
+                                                         <li><p><small></small>You should be aged between 23 and 55 years
+</p></li>
+                                                 <li><p><small></small>You need to be a resident of India
+
+</p></li>
+                                                         <li><p><small></small>You should be working for an MNC, private or a public limited company
+
+</p></li>
+                                                         <li><p><small></small>KYC documents
+
+</p></li>
+                            <li><p><small></small>Employee ID card
+
+</p></li>
+
+                            <li><p><small></small>Last 2 months’ salary slips
+
+
+</p></li>
+                                                         <li><p><small></small>Salaried bank account statement of the previous 3 months
+
+
+</p></li>
+
+
+                                                 </ul>
+                                                 <p>Along with these, the lender will also look at your CIBIL score and repayment history before approving your personal loan application.</p>
+
+
+                                             </div>
+
+                                         </li>
+                                         <li class="col-md-12">
+                                             <h3>6. What is the minimum salary required for a personal loan?</h3>
+                                             <div class="faq-content">
+                                                 <p>The minimum salary for personal loans that you need to be earning will depend on your city of residence. The minimum salary that you need to be earning is Rs.25,000 and that depends on your city. But, if you are earning Rs.25,000, then you can’t apply for a loan in Pune. It is because the minimum salary in Pune is Rs.35,000. The minimum salary required to apply for personal loans will differ from cities to cities.
+
+</p>
+
+                                             </div>
+
+                                         </li>
+                                         <li class="col-md-12">
+                                             <h3>7. What is the maximum age to avail a personal loan?
+</h3>
+                                             <div class="faq-content">
+                                                 <p>At Bajaj Finserv, the personal loan age limit is between 23 and 55 years. Hence, the maximum age to avail a loan is 55 years. But, the younger an applicant is, the better is his/her chance to get the loan approval at a lower rate of interest. It is because he/she has more working years left than an applicant in his/her 50s. Thus, the applicant won’t face issues in paying the loan EMIs without the risks of defaulting.
+
+</p>
+
+                                             </div>
+
+                                         </li>
+                                         <li class="col-md-12">
+                                             <h3>8. How to check if you are eligible for a personal loan or not?
+</h3>
+                                             <div class="faq-content">
+                                                 <p>If you want to apply for a personal loan to meet some of your urgent needs, then you need to check if you are eligible for the desired loan amount or not. To do that, you can check your loan eligibility by using the personal loan eligibility checker. You need to select your city, age, income and expenses and the tool will predict the eligible amount. As per the qualifying amount, you can apply for the same and get instant approval.
+
+
+</p>
+
+                                             </div>
+
+                                         </li>
+                                          <li class="col-md-12">
+                                             <h3>9. What is the minimum CIBIL Score to get a personal loan?
+</h3>
+                                             <div class="faq-content">
+                                                 <p>Although the required CIBIL score for personal loan is 750+, you can also get the loan approval when you have a lower credit score. You won’t get the loan approval if the CIBIL score is under 599. However, if you have a score of 600-700, you may get the loan approval, but at a higher rate of interest. It may affect your budget and lead to an increased EMI amount.
+
+
+
+</p>
+
+                                             </div>
+
+                                         </li>
+
+                                         <li class="col-md-12">
+                                             <h3>10. Can a person avail a personal loan and a home loan simultaneously?
+</h3>
+                                             <div class="faq-content">
+                                                 <p>Yes, a person can have a personal loan and a home loan account at the same time. If you have an ongoing personal loan and you are seeking a home loan, then you can apply for it. The only condition is that your debt to income ratio should not be above 50%. You can have multiple personal loans and yet apply for a home loan. You should ensure having higher creditworthiness so that you can manage home loan and personal loan repayments.
+
+
+
+
+</p>
+
+                                             </div>
+
+                                         </li>
+
+
+
+
+                                     </ul>
+                                 </div>
+                                 </div>
+
+                             </div>
+
+                             </div>
+                         </div>
+
+                     </div>
+
+
+                 </div>
+
+
+             </div>
+                     </div>
+
+         </div>
+
+      </div>
+{% endblock %}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Types_of_policies" data-name="Types of policies" transform="translate(-5 -5)">
+    <g id="_19" data-name="19" transform="translate(5 5)">
+      <path id="Path_39506" data-name="Path 39506" d="M11.111,17.222A6.111,6.111,0,1,0,5,11.111,6.111,6.111,0,0,0,11.111,17.222Z" transform="translate(-5 -5)" fill="#fcfdff"/>
+      <path id="Path_39507" data-name="Path 39507" d="M43.111,17.222A6.111,6.111,0,1,0,37,11.111,6.111,6.111,0,0,0,43.111,17.222Z" transform="translate(-19.222 -5)" fill="#fcfdff"/>
+      <path id="Path_39508" data-name="Path 39508" d="M43.111,37a6.111,6.111,0,1,0,6.111,6.111A6.111,6.111,0,0,0,43.111,37Z" transform="translate(-19.222 -19.222)" fill="#fcfdff"/>
+      <path id="Path_39509" data-name="Path 39509" d="M11.111,37a6.111,6.111,0,1,0,6.111,6.111A6.111,6.111,0,0,0,11.111,37Z" transform="translate(-5 -19.222)" fill="#fcfdff"/>
+      <path id="Path_39510" data-name="Path 39510" d="M33.111,27.556A.556.556,0,0,0,32.556,27H28.111V22.556a.556.556,0,1,0-1.111,0V27H22.556a.556.556,0,1,0,0,1.111H27v4.444a.556.556,0,0,0,1.111,0V28.111h4.444A.556.556,0,0,0,33.111,27.556Z" transform="translate(-12.556 -12.556)" fill="#fcfdff"/>
+    </g>
+  </g>
+</svg>

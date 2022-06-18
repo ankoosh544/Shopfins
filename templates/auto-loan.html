@@ -1,0 +1,630 @@
+{% extends 'header.html' %}
+{% block content %}
+    {% load static %}
+
+    <div class="eligibility-criteria">
+                 <div class="container">
+
+                     <div class="loan-personal text-center">
+                         <h3>Vehicle Loan  <div class="arrow">
+                         <a href="{% url 'home' %}"><img src="{% static 'images/arrow2.png' %}" width="20" height="14" alt="arrow2"></a>
+
+                     </div></h3>
+                         <p>Car Loan with interest rates as low as 7.30% p.a. and repayment tenure of up to 8 years, you can find the most suitable vehicle loan for your needs. You can take the loan for 90% to 100% of the on-road price of the car. Banks will also offer pre-owned car loans with faster processing.</p>
+
+                     </div>
+                     <div class="eligibility-in" id="parentHorizontalTab">
+                         <div class="features-links">
+                             <ul class="d-flex flex-wrap resp-tabs-list hor_1">
+                                 <li class="col-md-3">
+                                     <a>
+                                         <div class="feature-links-cnt text-center">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="{% static 'images/Features.svg' %}" width="30" height="20" alt="feature"></span>
+                                             <h5>Features and Benefits</h5>
+
+                                         </div>
+
+                                     </a>
+
+                                 </li>
+                                  <li class="col-md-3 resp-tab-active">
+                                     <a>
+                                         <div class="feature-links-cnt text-center">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="{% static 'images/Eligibility-Criteria.svg' %}" width="22" height="20" alt="eligbilty"></span>
+                                             <h5>Eligibility Criteria</h5>
+
+                                         </div>
+
+                                     </a>
+
+                                 </li>
+                                  <li class="col-md-3">
+                                     <a>
+                                         <div class="feature-links-cnt text-center">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="{% static 'images/Required-Documents.svg' %}" width="15" height="20" alt="required"></span>
+                                             <h5>Required Documents</h5>
+
+                                         </div>
+
+                                     </a>
+
+                                 </li>
+                                 <li class="col-md-3">
+                                     <a>
+                                         <div class="feature-links-cnt text-center">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="{% static "images/FAQ's.svg" %}" width="22" height="20" alt="required"></span>
+                                             <h5>FAQ'S</h5>
+
+                                         </div>
+
+                                     </a>
+
+                                 </li>
+
+                             </ul>
+
+                         </div>
+                         <div class="features-tab-content">
+                               <div class="resp-tabs-container hor_1">
+                                   <div>
+                             <div class="feature-inner d-flex  flex-wrap">
+                                 <div class="features-left features-left_1 col-lg-4 col-md-12">
+                                     <h3>Features and<br>
+Benefits</h3>
+                                     <p>All leading private and public sector banks provide car loans at competitive rates of interests. Through these loans, you can buy your dream car – whether hatchback, sedan, or luxury and pay off the loan over a period of time.</p>
+
+
+                                 </div>
+                                 <div class="features-right col-lg-8 col-md-12">
+                                     <ul class="d-flex flex-wrap features">
+                                         <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt-inner">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="{% static 'images/Features.svg' %}" width="30" height="20" alt="feature"></span>
+                                                 <h3>Makes it easy to buy a car</h3>
+                                                 <p>As many banks provide up to 100% finance on ex-showroom price, you don’t have to wait long to buy your dream car.
+                                                     </p></div>
+                                             </div>
+
+                                         </li>
+                                         <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="{% static 'images/Features.svg' %}" width="30" height="20" alt="feature"></span>
+                                                 <h3>Flexibility to choose the tenure</h3>
+                                                 <p>Banks offer car loans for tenure of up to 7 year. You have the flexibility to choose the tenure as per your convenience.
+                                                     </p></div>
+                                             </div>
+
+                                         </li>
+                                            <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="{% static 'images/Features.svg' %}" width="30" height="20" alt="feature"></span>
+                                                 <h3>Loan for buying a used car</h3>
+                                                 <p>Many banks offer loans on used cars these days. Although the interest rate will be higher than the interest rate on new car loans and the loan-to-value (LTV) ratio will be lower than the new car loan.
+                                                     </p></div>
+                                             </div>
+
+                                         </li>
+                                            <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="{% static 'images/Features.svg' %}" width="30" height="20" alt="feature"></span>
+                                                 <h3>Interest rate can be negotiated</h3>
+                                                 <p>Unlike home loan in case of car loan you have the flexibility to negotiate the interest rate with your lender if you have a good credit score and have good relationships with the bank.
+                                                     </p></div>
+                                             </div>
+
+                                         </li>
+                                      <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="{% static 'images/Features.svg' %}" width="30" height="20" alt="feature"></span>
+                                                 <h3>No collateral required</h3>
+                                                 <p>You don’t have to put any collateral to avail the car loan as your vehicle will act as a security with the bank and in case you fail to make the payment, the bank has the rights to seize the vehicle and sell it off to recover the funds.
+
+                                                     </p></div>
+                                             </div>
+
+                                         </li>
+                                          <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="{% static 'images/Features.svg' %}" width="30" height="20" alt="feature"></span>
+                                                 <h3>Flexibility to choose the payment mode</h3>
+                                                 <p>You can choose to pay through post-dated cheques or use the auto debit facility where your equated monthly installments (EMIs) will be automatically deducted from your bank account.
+
+
+                                                     </p></div>
+                                             </div>
+
+                                         </li>
+                                      <li class="col-md-6">
+                                             <div class="features-right-cnt">
+                                                 <div class="features-right-cnt">
+                                             <span class="d-flex align-items-center justify-content-center"><img src="{% static 'images/Features.svg' %}" width="30" height="20" alt="feature"></span>
+                                                 <h3>Flexibility to choose the fixed or floating interest rate option</h3>
+                                                 <p>You can choose the type of interest rate whether fixed or floating. The interest rate will depend on the type of interest rate you are choosing.
+
+
+
+                                                     </p></div>
+                                             </div>
+
+                                         </li>
+
+
+                                     </ul>
+
+                                 </div>
+
+                             </div>
+
+                                       </div>
+                                   <div class="resp-tab-content-active">
+                              <div class=" feature-inner d-flex flex-wrap align-items-center">
+                                 <div class="features-left col-lg-4 col-md-12">
+                                     <h3>Eligibility<br>
+Criteria</h3>
+                                     <p>The car loan eligibility criteria can be different for different banks. The common criteria are as follows:</p>
+                                      <div class="product-left p-0">
+
+                                      <ul>
+                                          <li><p>Age between 18 years and 75 years</p></li>
+                                          <li><p>Minimum net monthly income of Rs. 20,000
+</p></li>
+                                          <li><p>At least 1 year of employment with the current employer
+</p></li>
+                                          <li><p>Must be salaried or self-employed, working for a government establishment or a private company
+</p></li>
+
+
+
+                                      </ul>
+
+                                     </div>
+
+
+                                 </div>
+                                 <div class="features-right features-right1 col-lg-8 col-md-12">
+
+            <div class="product-right">
+                                      <div class="form-wizard">
+                                       <div class="wizard-step">
+                                           <ul class="d-flex form-wizard-steps">
+                                           <li class="active"><em><span class="d-flex align-items-center justify-content-center">1</span></em>
+                                               <h6>Personal Details</h6></li>
+                                                <li><em><span class="d-flex align-items-center justify-content-center">2</span></em>
+                                               <h6>Loan Details</h6></li>
+
+                                           </ul>
+
+                                         </div>
+
+                                             <div class="wizard-fieldset show">
+
+                                         <div class="personal-form">
+                                             <form>
+                                                 <ul class="d-flex flex-wrap">
+                                                     <li class="col-md-6">
+                                                         <select>
+      <option data-display="Personal Loan">Personal Loan</option>
+       <option value="1">Home Loan</option>
+     <option value="2">Business Loan</option>
+     <option value="3">Vehicle Loan</option>
+
+
+</select></li>
+                                                      <li class="col-md-6">
+
+                        <input type="text" class="form-control" placeholder="Full Name as per PAN" name="name" id="name" >
+                     </li>
+                     <li class="col-md-6">
+
+                        <input type="tel" class="form-control" placeholder="Mobile Number" name="phone" id="phone">
+                     </li>
+                     <li class="col-md-6"><label></label>
+
+                        <input type="email" class="form-control" placeholder="Email ID" id="email" name="email">
+                     </li>
+                                                      <li class="col-md-6">
+                                                         <select>
+      <option data-display="Occupation Type">Occupation Type</option>
+       <option value="1">Salaried</option>
+     <option value="2">Self-Employed Professional</option>
+     <option value="3">Self-Employed Business</option>
+
+</select></li>
+
+                                                     <li class="col-md-6">
+                                                         <select>
+      <option data-display="Your current city">Your current city</option>
+       <option value="1">Hyderabad</option>
+     <option value="2">Chennai</option>
+     <option value="3">Mumbai</option>
+     <option value="3">Banglore</option>
+     <option value="3">Pune</option>
+
+</select></li>
+
+                                                 </ul>
+                                               <button type="button" class="btn form-wizard-next-btn">CONTINUE</button>
+
+                                             </form>
+
+                                         </div>
+                                             </div>
+                                             <div class="wizard-fieldset">
+
+                                         <div class="personal-form">
+                                             <form>
+
+                                                 <ul class="d-flex flex-wrap">
+                                                     <li class="col-md-6">
+                                                        <input type="number" class="form-control" placeholder="Required Loan amount">
+</li>
+                                                      <li class="col-md-6">
+
+                        <input type="text" class="form-control" placeholder="Company Working" name="company" id="company" required>
+                     </li>
+                     <li class="col-md-6">
+
+                        <input type="number" class="form-control" placeholder="Take home Salary Monthly" name="salary" id="salary"  required>
+                     </li>
+                     <li class="col-md-6">
+
+                        <input type="number" class="form-control" placeholder="Existing loan EMI amount (per Month)" id="amount" name="amount">
+                     </li>
+
+
+                                                 </ul>
+                                                 <div class="previous">
+                                                     <ul class="d-flex">
+                                                         <li>
+                                                 <button type="button" class="btn form-wizard-previous-btn">previous</button>
+                                                             </li>
+                                                         <li>
+                                               <button type="button" class="btn form-wizard-submit">SUBMIT</button>
+                                                             </li>
+                                                         </ul>
+                                                     </div>
+
+                                             </form>
+
+                                         </div>
+                                             </div>
+
+
+
+                                     </div>
+
+                                     </div>
+                                 </div>
+
+                             </div>
+
+                                       </div>
+                                    <div>
+                              <div class=" feature-inner d-flex flex-wrap">
+                                 <div class="features-left features-left_2 col-lg-4 col-md-12">
+                                     <h3>Required<br>
+Documents</h3>
+                                     <p>To prove your eligibility, you’ll need to provide certain documents. </p>
+
+                                 </div>
+                                 <div class="features-right features-right_1 col-lg-8 col-md-12">
+
+                                      <ul class="d-flex flex-wrap">
+
+
+                                         <li class="col-md-12">
+                                             <div class="features-right-cnt">
+                                           <h3>1. Identity proof (any of the following)</h3>
+                                                       <ul>
+                                                     <li><p><small></small> Aadhaar</p></li>
+                                                      <li><p><small></small>Passport
+</p></li>
+                                                     <li><p><small></small>Driving license
+
+
+</p></li>
+                                                     <li><p><small></small>Voters ID card
+
+</p></li>
+
+
+
+                                                 </ul>
+
+                                             </div>
+
+                                         </li>
+                                            <li class="col-md-12">
+                                             <div class="features-right-cnt">
+                                           <h3>2. Address proof (any of the following)</h3>
+                                                       <ul>
+                                                     <li><p><small></small> Aadhaar</p></li>
+                                                      <li><p><small></small>Passport
+</p></li>
+                                                     <li><p><small></small>Driving license
+
+
+</p></li>
+                                                     <li><p><small></small>Ration card
+
+
+</p></li>
+
+                                     <li><p><small></small>Utility bills
+
+
+
+</p></li>
+
+
+
+                                                 </ul>
+
+                                             </div>
+
+                                         </li>
+                                         <li class="col-md-12">
+                                             <div class="features-right-cnt">
+                                           <h3>3. Proof of income</h3>
+                                                       <ul>
+                                                     <li><p><small></small> Form 16
+</p></li>
+                                                      <li><p><small></small>Salary slips if you are salaried
+
+</p></li>
+                                                     <li><p><small></small>Latest Income Tax Returns
+
+
+</p></li>
+                                                     <li><p><small></small>RBank statements going back 6 months
+
+
+</p></li>
+
+
+
+
+                                                 </ul>
+
+                                             </div>
+
+                                         </li>
+
+                                     </ul>
+
+                                 </div>
+
+                             </div>
+
+                             </div>
+                                   <div>
+                              <div class=" feature-inner d-flex flex-wrap">
+                                 <div class="features-left features-left_2 col-lg-4 col-md-12">
+                                     <h3>FAQ'S</h3>
+<!--
+                                     <p>Shopfins provides Personal Loans for both <strong>selfemployed</strong> and <strong>salaried individuals</strong> based on the
+assessment of following documents.Privacy Policy Terms & Conditions
+SUPPORT</p>
+
+-->
+                                 </div>
+                                 <div class="features-right features-right1 col-lg-8 col-md-12">
+
+
+                                      <div class="faqs-accordian">
+                                     <ul class="d-flex flex-wrap">
+                                         <li class="col-md-12">
+                                             <h3>1.Can I get 100% funding to buy a car?
+</h3>
+                                             <div class="faq-content">
+                                                 <p>The maximum amount of loan that you can avail to buy a car will vary from lender to lender. Most banks offer financing up to 90% of the on-road price of the car but there are some banks such as HDFC Bank, ICICI Bank, etc., that offer financing for up to 100% of the car’s on-road price.
+</p>
+
+                                             </div>
+
+                                         </li>
+                                          <li class="col-md-12">
+                                             <h3>2. Can I pre-pay the entire loan amount? What are the conditions involved?</h3>
+                                             <div class="faq-content">
+                                                 <p>Yes, you can prepay the entire car loan and save on vital interest payments in the future. However, most banks will allow the prepayment option after you have chalked off 6 months on your loan tenure. Plus, you will be expected to pay a small fee as a prepayment penalty that will be dependent on the leftover loan amount.
+</p>
+
+
+                                             </div>
+
+                                         </li>
+                                         <li class="col-md-12">
+                                             <h3>3. What car models are financed by the standard car loan in India?
+</h3>
+                                             <div class="faq-content">
+                                                 <p>Unless otherwise specified, almost all small to medium sized cars, Commercial Vehicle Loan, Sports Utility Vehicles (SUV) and Multi Utility Vehicles (MUV) come under the purview of car loans available in India. However, as mentioned, refer to the loan brochure for exceptions to this rule.
+
+</p>
+
+                                             </div>
+
+                                         </li>
+
+                                          <li class="col-md-12">
+                                             <h3>4. When applying for the car loan, do I need a guarantor/ security?
+</h3>
+                                             <div class="faq-content">
+                                                 <p>Almost all car loan products available in India are secured loans, with the procured vehicle itself acting as the customary security. Most lenders in India will not insist upon any guarantors; however, if your annual income does not match up to the expected requirement, then you may be expected to sign-up a co-applicant and/or guarantor.
+</p>
+
+
+                                             </div>
+
+                                         </li>
+
+                                          <li class="col-md-12">
+                                             <h3>5. What are the commonly available car loan repayment tenures?
+</h3>
+                                             <div class="faq-content">
+                                                 <p>Repayment tenures usually range from 12 months to 84 months (1-7 years).
+</p>
+
+
+                                             </div>
+
+                                         </li>
+                                         <li class="col-md-12">
+                                             <h3>6.What kind of a credit score do you need to buy a car?
+</h3>
+                                             <div class="faq-content">
+                                                 <p>Just like with most loans, a high credit score above 750 is ideal. But you can still apply for a loan if your credit score is above 600. Remember, if your score is too low, your application may be rejected.
+
+
+</p>
+
+                                             </div>
+
+                                         </li>
+                                         <li class="col-md-12">
+                                             <h3>7. Will my credit score affect the interest rate?
+
+</h3>
+                                             <div class="faq-content">
+                                                 <p>AYes. Some banks will offer lower interest rates to applicants with high credit scores. Likewise, borrowers with low credit scores will have to bear higher interest rates.
+
+
+</p>
+
+                                             </div>
+
+                                         </li>
+                                         <li class="col-md-12">
+                                             <h3>8. What is the minimum credit score I need to get a car loan?
+
+</h3>
+                                             <div class="faq-content">
+                                                 <p>When you apply for a car loan, lenders will look for a credit score of at least 750. Below this score, lenders may be reluctant to lend to you as it indicates your low repayment capacity. Some banks may offer you a car loan despite your low credit score but they may charge a higher interest rate.
+
+
+</p>
+
+                                             </div>
+
+                                         </li>
+                                          <li class="col-md-12">
+                                             <h3>9. Should I take a car loan from the car dealership or bank?
+
+</h3>
+                                             <div class="faq-content">
+                                                 <p>Before you apply for any car loan, ensure that you explore all the options available. Once you explore, you will get an idea about the benefits offered by various lenders on their car loans. Compare the benefits offered and pick a lender that fits your requirements. Whether it is a bank or a car dealership, pick the one that offers better interest rates.
+
+
+
+</p>
+
+                                             </div>
+
+                                         </li>
+
+                                         <li class="col-md-12">
+                                             <h3>10. Do banks offer finance for used cars?
+
+</h3>
+                                             <div class="faq-content">
+                                                 <p>Yes. Many top lenders such as SBI, HDFC Bank, ICICI Bank, etc., offer loans to buy used cars. These lenders offer car loans for up to 85% of the car’s value provided that the car is not more than 5 years old. Used car loans can be repaid in a maximum of 7 years.
+
+
+
+
+
+</p>
+
+                                             </div>
+
+                                         </li>
+                                     <li class="col-md-12">
+                                         <h3>11. What will lenders look for when I apply for a car loan?</h3>
+
+                                             <div class="faq-content">
+                                                 <p>One of the most important factors that lenders consider before offering you a car loan is your credit score. As stated above, a credit score of above 750 can fetch you lower interest rates and other benefits. The other factors that lenders look for when you apply for a car loan are your employment status, residence and job stability, income, debt-to-income ratio, etc.
+
+
+
+
+
+</p>
+
+                                             </div>
+
+                                         </li>
+                                     <li class="col-md-12">
+                                         <h3>12. What is the lowest EMI that I need to pay for a car loan?</h3>
+
+                                             <div class="faq-content">
+                                                 <p>The amount of EMI (equated monthly instalments) that you will be paying towards your car loan will depend on the interest rate, loan amount, and the repayment tenure you choose. For example, let us suppose that you avail a car loan of Rs.1 lakh at an interest rate of 12% for a tenure of 5 years. Using the tool, we calculated the EMI and found it to be Rs.2,224.
+
+
+
+
+
+</p>
+
+                                             </div>
+
+                                         </li>
+                                         <li class="col-md-12">
+                                         <h3>13. How much down payment do I need to make to buy a car?
+</h3>
+
+                                             <div class="faq-content">
+                                                 <p>Making a higher down payment will mean that you will need to avail a lower loan amount to buy a car. When you avail a lower loan amount, there are chances that banks or lenders may offer you a car loan at lower interest rates. This is simply because if the loan amount is lower, the repayment will be quicker. So, though there is no hard and fast rule to how much down payment you should make, a higher down payment will ensure that your debt liability is lesser.
+
+
+
+
+
+
+</p>
+
+                                             </div>
+
+                                         </li>
+
+                                     <li class="col-md-12">
+                                         <h3>14. Can I get a lower interest rate if I have a good credit score?
+</h3>
+
+                                             <div class="faq-content">
+                                                 <p>loan at a lower interest rate. Many lenders will let you negotiate on the interest rates since your high credit score is an indication of your high repayment capacity. Some lenders may also offer you a waiver on the processing fee if you have a good credit score.
+
+
+
+
+
+
+</p>
+
+                                             </div>
+
+                                         </li>
+
+                                     </ul>
+                                 </div>
+
+
+                                 </div>
+
+                             </div>
+
+
+                             </div>
+                             </div>
+                         </div>
+
+                     </div>
+
+                 </div>
+
+             </div>
+{% endblock %}
